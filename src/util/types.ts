@@ -27,3 +27,10 @@ export interface Event {
   event_date: Date;
   location: string;
 }
+
+export interface NavLink {
+  id: string;
+  label: string;
+  icon: string;
+  url: string;
+}
